@@ -2,7 +2,7 @@
 
 [lvzmqBus](https://gitee.com/nevstop/lvZmqBus) 中使用的 LabVIEW 大数据模块间传递方案。
 
-![演示](https://images.gitee.com/uploads/images/2018/0822/160223_0fcbcbd3_136753.png "屏幕截图.png")
+![演示](https://images.gitee.com/uploads/images/2018/0822/160314_566fec33_136753.png "屏幕截图.png")
 
 ## 支持的数据类型
  1. Waveform 
