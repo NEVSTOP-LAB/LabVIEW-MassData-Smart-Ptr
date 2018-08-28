@@ -21,13 +21,12 @@
 
 ## 流程说明
 
-参考  **_Example/MDPtr Process Example.vi**   
+参考  **_Example/MDPtr Process Example.vi**     
 ![输入图片说明](https://images.gitee.com/uploads/images/2018/0828/141100_30fe50a4_136753.png "屏幕截图.png")
 
 ## 应用实例
 
-参考  **_Example/MDPtr DAQ Example.vi**
-利用 MDPtr 将采集到的 Sine/Square 两个波形数据文件，发送到显示、数据保存两个模块使用。
+参考  **_Example/MDPtr DAQ Example.vi**    
 
-![FP](https://images.gitee.com/uploads/images/2018/0828/141607_9bd7319a_136753.png "屏幕截图.png")
+利用 MDPtr 将采集到的 Sine/Square 两个波形数据文件，发送到显示、数据保存两个模块使用。后面板逻辑：    
 ![BD](https://images.gitee.com/uploads/images/2018/0828/141546_07da7131_136753.png "屏幕截图.png")
