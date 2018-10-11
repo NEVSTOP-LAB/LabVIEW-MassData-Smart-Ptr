@@ -8,6 +8,7 @@
  - Waveform Array
  - Double Array
  - String Array
+ - Memory( 使用其他任意数据Flattern To String 后，进行传输)
  
 **新增数据类型步骤:**  
  1. 增加新增的数据类型到 "MDPtr TypeDef/MDPtr SupportedDataTypeDef.ctl"
