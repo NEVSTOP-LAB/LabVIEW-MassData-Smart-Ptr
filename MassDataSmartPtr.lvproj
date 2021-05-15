@@ -20,8 +20,15 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="MassDataSmartPtr" Type="Folder" URL="../MassDataSmartPtr">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="MassDataSmartPtr" Type="Folder">
+			<Item Name="_Example" Type="Folder">
+				<Item Name="MDPtr DAQ Example.vi" Type="VI" URL="../MassDataSmartPtr/_Example/MDPtr DAQ Example.vi"/>
+				<Item Name="MDPtr Process Example.vi" Type="VI" URL="../MassDataSmartPtr/_Example/MDPtr Process Example.vi"/>
+				<Item Name="MDPtr ValidateFlattenToString.vi" Type="VI" URL="../MassDataSmartPtr/_Example/MDPtr ValidateFlattenToString.vi"/>
+				<Item Name="MDPtr ValidateFlattenToString2.vi" Type="VI" URL="../MassDataSmartPtr/_Example/MDPtr ValidateFlattenToString2.vi"/>
+				<Item Name="MDPtr ValidateFlattenToString3.vi" Type="VI" URL="../MassDataSmartPtr/_Example/MDPtr ValidateFlattenToString3.vi"/>
+			</Item>
+			<Item Name="MDPtr.lvlib" Type="Library" URL="../MassDataSmartPtr/MDPtr.lvlib"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
