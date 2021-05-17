@@ -22,9 +22,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="MassDataSmartPtr" Type="Folder">
 			<Item Name="_Example" Type="Folder">
-				<Item Name="MDPtr DAQ Example(obsolete).vi" Type="VI" URL="../MassDataSmartPtr/_Example/MDPtr DAQ Example(obsolete).vi"/>
 				<Item Name="MDPtr DAQ Example.vi" Type="VI" URL="../MassDataSmartPtr/_Example/MDPtr DAQ Example.vi"/>
-				<Item Name="MDPtr Process Example(obsolete).vi" Type="VI" URL="../MassDataSmartPtr/_Example/MDPtr Process Example(obsolete).vi"/>
 				<Item Name="MDPtr Process Example.vi" Type="VI" URL="../MassDataSmartPtr/_Example/MDPtr Process Example.vi"/>
 				<Item Name="MDPtr ValidateFlattenToString.vi" Type="VI" URL="../MassDataSmartPtr/_Example/MDPtr ValidateFlattenToString.vi"/>
 				<Item Name="MDPtr ValidateFlattenToString2.vi" Type="VI" URL="../MassDataSmartPtr/_Example/MDPtr ValidateFlattenToString2.vi"/>
@@ -84,6 +82,7 @@
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>

@@ -6,18 +6,6 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="_PolymorphicVIs" Type="Folder">
-		<Item Name="obsolete" Type="Folder">
-			<Item Name="MDPtr Pack DoubleArr.vi" Type="VI" URL="../_PolymorphicVIs/MDPtr Pack DoubleArr.vi"/>
-			<Item Name="MDPtr Pack StringArr.vi" Type="VI" URL="../_PolymorphicVIs/MDPtr Pack StringArr.vi"/>
-			<Item Name="MDPtr Pack WaveformArr.vi" Type="VI" URL="../_PolymorphicVIs/MDPtr Pack WaveformArr.vi"/>
-			<Item Name="MDPtr Pack Waveform.vi" Type="VI" URL="../_PolymorphicVIs/MDPtr Pack Waveform.vi"/>
-			<Item Name="MDPtr Unpack DoubleArr.vi" Type="VI" URL="../_PolymorphicVIs/MDPtr Unpack DoubleArr.vi"/>
-			<Item Name="MDPtr Unpack StringArr.vi" Type="VI" URL="../_PolymorphicVIs/MDPtr Unpack StringArr.vi"/>
-			<Item Name="MDPtr Unpack WaveformArr.vi" Type="VI" URL="../_PolymorphicVIs/MDPtr Unpack WaveformArr.vi"/>
-			<Item Name="MDPtr Unpack Waveform.vi" Type="VI" URL="../_PolymorphicVIs/MDPtr Unpack Waveform.vi"/>
-			<Item Name="MDPtr Pack.vi" Type="VI" URL="../MDPtr Pack.vi"/>
-			<Item Name="MDPtr Unpack.vi" Type="VI" URL="../MDPtr Unpack.vi"/>
-		</Item>
 		<Item Name="MDPtr Pack Memory.vi" Type="VI" URL="../_PolymorphicVIs/MDPtr Pack Memory.vi"/>
 		<Item Name="MDPtr Unpack Memory.vi" Type="VI" URL="../_PolymorphicVIs/MDPtr Unpack Memory.vi"/>
 	</Item>
@@ -46,12 +34,7 @@
 	<Item Name="MDPtr TypeDef" Type="Folder">
 		<Item Name="MDPtr DataFrame-Common.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr DataFrame-Common.ctl"/>
 		<Item Name="MDPtr DataFrame-PlaceHolder.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr DataFrame-PlaceHolder.ctl"/>
-		<Item Name="MDPtr DataFrame-DoubleArr.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr DataFrame-DoubleArr.ctl"/>
 		<Item Name="MDPtr DataFrame-Memory.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr DataFrame-Memory.ctl"/>
-		<Item Name="MDPtr DataFrame-StringArr.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr DataFrame-StringArr.ctl"/>
-		<Item Name="MDPtr DataFrame-Waveform.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr DataFrame-Waveform.ctl"/>
-		<Item Name="MDPtr DataFrame-WaveformArr.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr DataFrame-WaveformArr.ctl"/>
-		<Item Name="MDPtr SupportedDataTypeDef.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr SupportedDataTypeDef.ctl"/>
 		<Item Name="MDPtr.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr.ctl"/>
 	</Item>
 	<Item Name="MDPtr Get Info.vi" Type="VI" URL="../MDPtr Get Info.vi"/>
