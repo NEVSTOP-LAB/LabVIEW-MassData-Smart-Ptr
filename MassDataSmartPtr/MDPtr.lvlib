@@ -45,9 +45,9 @@
 	</Item>
 	<Item Name="MDPtr TypeDef" Type="Folder">
 		<Item Name="MDPtr DataFrame-Common.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr DataFrame-Common.ctl"/>
+		<Item Name="MDPtr DataFrame-PlaceHolder.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr DataFrame-PlaceHolder.ctl"/>
 		<Item Name="MDPtr DataFrame-DoubleArr.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr DataFrame-DoubleArr.ctl"/>
 		<Item Name="MDPtr DataFrame-Memory.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr DataFrame-Memory.ctl"/>
-		<Item Name="MDPtr DataFrame-PlaceHolder.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr DataFrame-PlaceHolder.ctl"/>
 		<Item Name="MDPtr DataFrame-StringArr.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr DataFrame-StringArr.ctl"/>
 		<Item Name="MDPtr DataFrame-Waveform.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr DataFrame-Waveform.ctl"/>
 		<Item Name="MDPtr DataFrame-WaveformArr.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr DataFrame-WaveformArr.ctl"/>
