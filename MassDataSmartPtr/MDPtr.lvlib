@@ -32,10 +32,10 @@
 		<Item Name="MDPtr To FlattenStrPtr.vi" Type="VI" URL="../Advanced/MDPtr To FlattenStrPtr.vi"/>
 	</Item>
 	<Item Name="MDPtr TypeDef" Type="Folder">
+		<Item Name="MDPtr.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr.ctl"/>
 		<Item Name="MDPtr DataFrame-Common.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr DataFrame-Common.ctl"/>
 		<Item Name="MDPtr DataFrame-PlaceHolder.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr DataFrame-PlaceHolder.ctl"/>
 		<Item Name="MDPtr DataFrame-Memory.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr DataFrame-Memory.ctl"/>
-		<Item Name="MDPtr.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr.ctl"/>
 	</Item>
 	<Item Name="MDPtr Get Info.vi" Type="VI" URL="../MDPtr Get Info.vi"/>
 	<Item Name="MDPtr IsValidPtr.vi" Type="VI" URL="../MDPtr IsValidPtr.vi"/>
