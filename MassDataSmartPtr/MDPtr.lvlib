@@ -6,16 +6,20 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="_PolymorphicVIs" Type="Folder">
-		<Item Name="MDPtr Pack DoubleArr.vi" Type="VI" URL="../_PolymorphicVIs/MDPtr Pack DoubleArr.vi"/>
+		<Item Name="obsolete" Type="Folder">
+			<Item Name="MDPtr Pack DoubleArr.vi" Type="VI" URL="../_PolymorphicVIs/MDPtr Pack DoubleArr.vi"/>
+			<Item Name="MDPtr Pack StringArr.vi" Type="VI" URL="../_PolymorphicVIs/MDPtr Pack StringArr.vi"/>
+			<Item Name="MDPtr Pack WaveformArr.vi" Type="VI" URL="../_PolymorphicVIs/MDPtr Pack WaveformArr.vi"/>
+			<Item Name="MDPtr Pack Waveform.vi" Type="VI" URL="../_PolymorphicVIs/MDPtr Pack Waveform.vi"/>
+			<Item Name="MDPtr Unpack DoubleArr.vi" Type="VI" URL="../_PolymorphicVIs/MDPtr Unpack DoubleArr.vi"/>
+			<Item Name="MDPtr Unpack StringArr.vi" Type="VI" URL="../_PolymorphicVIs/MDPtr Unpack StringArr.vi"/>
+			<Item Name="MDPtr Unpack WaveformArr.vi" Type="VI" URL="../_PolymorphicVIs/MDPtr Unpack WaveformArr.vi"/>
+			<Item Name="MDPtr Unpack Waveform.vi" Type="VI" URL="../_PolymorphicVIs/MDPtr Unpack Waveform.vi"/>
+			<Item Name="MDPtr Pack.vi" Type="VI" URL="../MDPtr Pack.vi"/>
+			<Item Name="MDPtr Unpack.vi" Type="VI" URL="../MDPtr Unpack.vi"/>
+		</Item>
 		<Item Name="MDPtr Pack Memory.vi" Type="VI" URL="../_PolymorphicVIs/MDPtr Pack Memory.vi"/>
-		<Item Name="MDPtr Pack StringArr.vi" Type="VI" URL="../_PolymorphicVIs/MDPtr Pack StringArr.vi"/>
-		<Item Name="MDPtr Pack Waveform.vi" Type="VI" URL="../_PolymorphicVIs/MDPtr Pack Waveform.vi"/>
-		<Item Name="MDPtr Pack WaveformArr.vi" Type="VI" URL="../_PolymorphicVIs/MDPtr Pack WaveformArr.vi"/>
-		<Item Name="MDPtr Unpack DoubleArr.vi" Type="VI" URL="../_PolymorphicVIs/MDPtr Unpack DoubleArr.vi"/>
 		<Item Name="MDPtr Unpack Memory.vi" Type="VI" URL="../_PolymorphicVIs/MDPtr Unpack Memory.vi"/>
-		<Item Name="MDPtr Unpack StringArr.vi" Type="VI" URL="../_PolymorphicVIs/MDPtr Unpack StringArr.vi"/>
-		<Item Name="MDPtr Unpack Waveform.vi" Type="VI" URL="../_PolymorphicVIs/MDPtr Unpack Waveform.vi"/>
-		<Item Name="MDPtr Unpack WaveformArr.vi" Type="VI" URL="../_PolymorphicVIs/MDPtr Unpack WaveformArr.vi"/>
 	</Item>
 	<Item Name="_Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -52,6 +56,6 @@
 	</Item>
 	<Item Name="MDPtr Get Info.vi" Type="VI" URL="../MDPtr Get Info.vi"/>
 	<Item Name="MDPtr IsValidPtr.vi" Type="VI" URL="../MDPtr IsValidPtr.vi"/>
-	<Item Name="MDPtr Pack.vi" Type="VI" URL="../MDPtr Pack.vi"/>
-	<Item Name="MDPtr Unpack.vi" Type="VI" URL="../MDPtr Unpack.vi"/>
+	<Item Name="MDPtr Pack Data.vim" Type="VI" URL="../MDPtr Pack Data.vim"/>
+	<Item Name="MDPtr Unpack Data.vim" Type="VI" URL="../MDPtr Unpack Data.vim"/>
 </Library>
