@@ -23,13 +23,12 @@
 		<Item Name="_MDPtr ForceDeletePtr.vi" Type="VI" URL="../_Support/_MDPtr ForceDeletePtr.vi"/>
 		<Item Name="_MDPtr NotValidStrPtr ErrorConst.vi" Type="VI" URL="../_Support/_MDPtr NotValidStrPtr ErrorConst.vi"/>
 		<Item Name="_MDPtr PtrCounter.vi" Type="VI" URL="../_Support/_MDPtr PtrCounter.vi"/>
-		<Item Name="_MDPtr ReleaseCounter.vi" Type="VI" URL="../_Support/_MDPtr ReleaseCounter.vi"/>
 		<Item Name="_MDPtr Validate DataFrame Type.vi" Type="VI" URL="../_Support/_MDPtr Validate DataFrame Type.vi"/>
 	</Item>
 	<Item Name="_MDPtrMgr " Type="Folder">
-		<Item Name="Untitled 1.vi" Type="VI" URL="../_MDPtrMgr/Untitled 1.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="_MDPtr ReleaseCounter.vi" Type="VI" URL="../_Support/_MDPtr ReleaseCounter.vi"/>
+		<Item Name="Def-MDPtrQueue.ctl" Type="VI" URL="../_MDPtrMgr/Def-MDPtrQueue.ctl"/>
 		<Item Name="MDPtrMgr.lvclass" Type="LVClass" URL="../_MDPtrMgr/MDPtrMgr.lvclass"/>
 	</Item>
 	<Item Name="Advanced" Type="Folder">
