@@ -1,6 +1,13 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="17008000">
-	<Property Name="NI.Lib.Icon" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(]!!!*Q(C=\&gt;8"&lt;2MR%!813:!!O;K$1#V-#WJ",5Q,OPKI&amp;K9&amp;N;!7JA7VI";=JQVBZ"4F%#-ZG/O26X_ZZ$/87%&gt;M\6P%FXB^VL\_NHV=@X&lt;^39O0^N(_&lt;8NZOEH@@=^_CM?,3)VK63LD-&gt;8LS%=_]J'0@/1N&lt;XH,7^\SFJ?]Z#5P?=F,HP+5JTTF+5`Z&gt;MB$(P+1)YX*RU2DU$(![)Q3YW.YBG&gt;YBM@8'*\B':\B'2Z&gt;9HC':XC':XD=&amp;M-T0--T0-.DK%USWS(H'2\$2`-U4`-U4`/9-JKH!&gt;JE&lt;?!W#%;UC_WE?:KH?:R']T20]T20]\A=T&gt;-]T&gt;-]T?/7&lt;66[UTQ//9^BIHC+JXC+JXA-(=640-640-6DOCC?YCG)-G%:(#(+4;6$_6)]R?.8&amp;%`R&amp;%`R&amp;)^,WR/K&lt;75?GM=BZUG?Z%G?Z%E?1U4S*%`S*%`S'$;3*XG3*XG3RV320-G40!G3*D6^J-(3D;F4#J,(T\:&lt;=HN+P5FS/S,7ZIWV+7.NNFC&lt;+.&lt;GC0819TX-7!]JVO,(7N29CR6L%7,^=&lt;(1M4#R*IFV][.DX(X?V&amp;6&gt;V&amp;G&gt;V&amp;%&gt;V&amp;\N(L@_Z9\X_TVONVN=L^?Y8#ZR0J`D&gt;$L&amp;]8C-Q_%1_`U_&gt;LP&gt;WWPAO_0NB@$TP@4C`%`KH@[8`A@PRPA=PYZLD8Y![_ML^!!!!!!</Property>
+	<Property Name="EndevoGOOP_ColorFrame" Type="UInt">0</Property>
+	<Property Name="EndevoGOOP_ColorHeader" Type="UInt">0</Property>
+	<Property Name="EndevoGOOP_ColorPrivate" Type="UInt">16711680</Property>
+	<Property Name="EndevoGOOP_ColorPublic" Type="UInt">65282</Property>
+	<Property Name="EndevoGOOP_ColorTextBody" Type="UInt">1</Property>
+	<Property Name="EndevoGOOP_ColorTextHeader" Type="UInt">16448250</Property>
+	<Property Name="EndevoGOOP_FrameThickness" Type="UInt">1</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)T!!!*Q(C=\&gt;7R=&gt;N!%)8B:Y]#J[R!(H&lt;A?;&amp;4NM!7.G8)V#%DZ&gt;M##W$#&amp;L9$$T.($N#!!PL(=3VB0-LEM4U?!4S)@-$N@4S!*WFM([1\86_`;41+TH`HYXSY@&lt;S&gt;VXB&gt;8XBV`^N_\;[,.]P[CT[`^F_-`],ZVXWZN_VN_\_X,X``&gt;`$OZY_X;%E,GM=S=#XS)C`S)C`S)E`S*%`S*%`S*!`S)!`S)!`S)$?ZS5VO=J.&lt;P@C1CVTE]FB-CM',A9KC29(C9CAK$I7H]"3?QM.(&amp;:\#5XA+4_(B%B7?QF.Y#E`BI:M+4_%J0)7H]&amp;"K3'LMZ(A+$_76?"*0YEE]C9=BF8A31$*95DAJ!E0*S?2.YEE]C9?X3DS**`%EHM4$;37?R*.Y%E`CI=O9F2S;?3@(1RE&amp;HM!4?!*0Y+'U!E`A#4S"*`!QH!*0Y!E1Q9""=1A+/A58""]#4_$BDQ*0Y!E]A3@Q='L=I2AT-WPGH2S0]2C0]2C0]6"#RG-]RG-]RE.:'9`R')`R'!^$S8C-RXA-R!T+]$,&amp;4%&gt;TE1G-B^&gt;Y7DTO5A[*RS\VQ[N_+.50G`IB5D]=[JOOPJHKG[3?@07EKC&gt;,01HK,[&gt;'KT(K1&gt;3&gt;ZQMV=&lt;T1TL1D\5$&lt;U\;U$7V.7]V&gt;@`/&amp;UT4J=LHI@$\L?$TK=$BIP^^LO^VKM^FIP6ZLN6I^,1-@W:]7B/&gt;V;8LY&gt;0`N^(8X`@4Z@DI^\K;(R^U@_P`]$[S.?K`F'-T2$^W;MS9!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
