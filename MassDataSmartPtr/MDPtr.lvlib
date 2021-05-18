@@ -18,21 +18,25 @@
 	</Item>
 	<Item Name="_MDPtrMgr " Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="_MDPtr TotalCounter.vi" Type="VI" URL="../_Support/_MDPtr TotalCounter.vi"/>
-		<Item Name="_MDPtr ReleaseCounter.vi" Type="VI" URL="../_Support/_MDPtr ReleaseCounter.vi"/>
-		<Item Name="Def-MDPtrQueue.ctl" Type="VI" URL="../_MDPtrMgr/Def-MDPtrQueue.ctl"/>
+		<Item Name="_MDPtr TotalCounter.vi" Type="VI" URL="../_MDPtrMgr/_MDPtr TotalCounter.vi"/>
+		<Item Name="_MDPtr ReleaseCounter.vi" Type="VI" URL="../_MDPtrMgr/_MDPtr ReleaseCounter.vi"/>
+		<Item Name="Def-Request.ctl" Type="VI" URL="../_MDPtrMgr/Def-Request.ctl"/>
+		<Item Name="Def-Respone.ctl" Type="VI" URL="../_MDPtrMgr/Def-Respone.ctl"/>
 		<Item Name="MDPtrMgr.lvclass" Type="LVClass" URL="../_MDPtrMgr/MDPtrMgr.lvclass"/>
 	</Item>
 	<Item Name="_Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="DVR" Type="Folder">
 			<Item Name="_malloc.vi" Type="VI" URL="../_Support/_malloc.vi"/>
+			<Item Name="_mallocWithLength.vi" Type="VI" URL="../_Support/_mallocWithLength.vi"/>
 			<Item Name="_information.vi" Type="VI" URL="../_Support/_information.vi"/>
 			<Item Name="_memcpy.vi" Type="VI" URL="../_Support/_memcpy.vi"/>
 			<Item Name="_free.vi" Type="VI" URL="../_Support/_free.vi"/>
 		</Item>
 		<Item Name="_MDPtr Build Error Cluster.vi" Type="VI" URL="../_Support/_MDPtr Build Error Cluster.vi"/>
 		<Item Name="_MDPtr NotValidStrPtr ErrorConst.vi" Type="VI" URL="../_Support/_MDPtr NotValidStrPtr ErrorConst.vi"/>
+		<Item Name="_MDPtr Apply For Memory.vi" Type="VI" URL="../_Support/_MDPtr Apply For Memory.vi"/>
+		<Item Name="_MDPtr Apply For MDPtrQueue.vi" Type="VI" URL="../_Support/_MDPtr Apply For MDPtrQueue.vi"/>
 		<Item Name="_MDPtr Validate DataFrame Type.vi" Type="VI" URL="../_Support/_MDPtr Validate DataFrame Type.vi"/>
 	</Item>
 	<Item Name="Advanced" Type="Folder">
@@ -48,6 +52,7 @@
 		<Item Name="MDPtr DataFrame-Common.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr DataFrame-Common.ctl"/>
 		<Item Name="MDPtr DataFrame-PlaceHolder.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr DataFrame-PlaceHolder.ctl"/>
 		<Item Name="MDPtr DataFrame-Memory.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr DataFrame-Memory.ctl"/>
+		<Item Name="MDPtr Queue.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr Queue.ctl"/>
 	</Item>
 	<Item Name="MDPtr Get Info.vi" Type="VI" URL="../MDPtr Get Info.vi"/>
 	<Item Name="MDPtr IsValidPtr.vi" Type="VI" URL="../MDPtr IsValidPtr.vi"/>
