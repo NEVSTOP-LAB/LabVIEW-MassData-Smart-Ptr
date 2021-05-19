@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-05-29 16:33:58" Modified_Date="2019-05-29 16:52:50" Creator="yao" Comments="" ID="79b884bef5b4a8e54b11eb8261c7512c">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-05-29 16:33:58" Modified_Date="2021-05-19 21:50:51" Creator="yao" Comments="" ID="a6eeb3ce3cc3243caaa2929e72b74ae8">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_MassData_SmartPtr</Package_File_Name>
     <Library_Version>0.1.0.3</Library_Version>
@@ -62,7 +62,7 @@
       <Toolkit_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;user.lib&gt;\_NEVSTOP\MassData-SmartPtr</Path>
+        <Path>&lt;user.lib&gt;\_NEVSTOP\LabVIEW-MassData-Smart-Ptr</Path>
       </Toolkit_VIs>
       <Examples>
         <LLB>false</LLB>
