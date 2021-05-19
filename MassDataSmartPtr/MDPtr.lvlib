@@ -12,10 +12,6 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="_PolymorphicVIs" Type="Folder">
-		<Item Name="MDPtr Pack Memory.vi" Type="VI" URL="../_PolymorphicVIs/MDPtr Pack Memory.vi"/>
-		<Item Name="MDPtr Unpack Memory.vi" Type="VI" URL="../_PolymorphicVIs/MDPtr Unpack Memory.vi"/>
-	</Item>
 	<Item Name="_MDPtrMgr " Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="_MDPtr TotalCounter.vi" Type="VI" URL="../_MDPtrMgr/_MDPtr TotalCounter.vi"/>
@@ -24,27 +20,36 @@
 		<Item Name="Def-Respone.ctl" Type="VI" URL="../_MDPtrMgr/Def-Respone.ctl"/>
 		<Item Name="MDPtrMgr.lvclass" Type="LVClass" URL="../_MDPtrMgr/MDPtrMgr.lvclass"/>
 	</Item>
+	<Item Name="_Obsolete" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+		<Item Name="MDPtr SetCopyCount.vi" Type="VI" URL="../_Obsolete/MDPtr SetCopyCount.vi"/>
+	</Item>
 	<Item Name="_Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="DVR" Type="Folder">
-			<Item Name="_malloc.vi" Type="VI" URL="../_Support/_malloc.vi"/>
-			<Item Name="_mallocWithLength.vi" Type="VI" URL="../_Support/_mallocWithLength.vi"/>
-			<Item Name="_information.vi" Type="VI" URL="../_Support/_information.vi"/>
-			<Item Name="_memcpy.vi" Type="VI" URL="../_Support/_memcpy.vi"/>
-			<Item Name="_free.vi" Type="VI" URL="../_Support/_free.vi"/>
+		<Item Name="LowLevelAPI" Type="Folder">
+			<Item Name="_malloc.vi" Type="VI" URL="../_Support/LowLevelAPI/_malloc.vi"/>
+			<Item Name="_mallocWithLength.vi" Type="VI" URL="../_Support/LowLevelAPI/_mallocWithLength.vi"/>
+			<Item Name="_information.vi" Type="VI" URL="../_Support/LowLevelAPI/_information.vi"/>
+			<Item Name="_memcpy.vi" Type="VI" URL="../_Support/LowLevelAPI/_memcpy.vi"/>
+			<Item Name="_free.vi" Type="VI" URL="../_Support/LowLevelAPI/_free.vi"/>
+		</Item>
+		<Item Name="Error Handler" Type="Folder">
+			<Item Name="_Build Error Cluster.vi" Type="VI" URL="../_Support/Error Handler/_Build Error Cluster.vi"/>
+			<Item Name="_MemoryIsLonger ErrorConst.vi" Type="VI" URL="../_Support/Error Handler/_MemoryIsLonger ErrorConst.vi"/>
+			<Item Name="_NotValidStrPtr ErrorConst.vi" Type="VI" URL="../_Support/Error Handler/_NotValidStrPtr ErrorConst.vi"/>
 		</Item>
 		<Item Name="_MDPtr DecrementCount.vi" Type="VI" URL="../_Support/_MDPtr DecrementCount.vi"/>
-		<Item Name="_MDPtr Build Error Cluster.vi" Type="VI" URL="../_Support/_MDPtr Build Error Cluster.vi"/>
-		<Item Name="_MDPtr NotValidStrPtr ErrorConst.vi" Type="VI" URL="../_Support/_MDPtr NotValidStrPtr ErrorConst.vi"/>
 		<Item Name="_MDPtr Apply For Memory.vi" Type="VI" URL="../_Support/_MDPtr Apply For Memory.vi"/>
 		<Item Name="_MDPtr Apply For MDPtrQueue.vi" Type="VI" URL="../_Support/_MDPtr Apply For MDPtrQueue.vi"/>
+		<Item Name="_MDPtr Push Ptr Back to CacheQueue.vi" Type="VI" URL="../_Support/_MDPtr Push Ptr Back to CacheQueue.vi"/>
+		<Item Name="_MDPtr Pack Memory.vi" Type="VI" URL="../_Support/_MDPtr Pack Memory.vi"/>
+		<Item Name="_MDPtr Unpack Memory.vi" Type="VI" URL="../_Support/_MDPtr Unpack Memory.vi"/>
 		<Item Name="_MDPtr Validate DataFrame Type.vi" Type="VI" URL="../_Support/_MDPtr Validate DataFrame Type.vi"/>
 	</Item>
 	<Item Name="Advanced" Type="Folder">
 		<Item Name="FlattenStrPtr To MDPtr.vi" Type="VI" URL="../Advanced/FlattenStrPtr To MDPtr.vi"/>
 		<Item Name="MDPtr To FlattenStrPtr.vi" Type="VI" URL="../Advanced/MDPtr To FlattenStrPtr.vi"/>
 		<Item Name="MDPtr PointerTotalCount.vi" Type="VI" URL="../Advanced/MDPtr PointerTotalCount.vi"/>
-		<Item Name="MDPtr SetCopyCount.vi" Type="VI" URL="../Advanced/MDPtr SetCopyCount.vi"/>
 		<Item Name="MDPtr SetStrAttribute.vi" Type="VI" URL="../Advanced/MDPtr SetStrAttribute.vi"/>
 	</Item>
 	<Item Name="MDPtr TypeDef" Type="Folder">
