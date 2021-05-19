@@ -16,9 +16,6 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="_MDPtr TotalCounter.vi" Type="VI" URL="../_MDPtrMgr/_MDPtr TotalCounter.vi"/>
 		<Item Name="_MDPtr ReleaseCounter.vi" Type="VI" URL="../_MDPtrMgr/_MDPtr ReleaseCounter.vi"/>
-		<Item Name="Def-Request.ctl" Type="VI" URL="../_MDPtrMgr/Def-Request.ctl"/>
-		<Item Name="Def-Respone.ctl" Type="VI" URL="../_MDPtrMgr/Def-Respone.ctl"/>
-		<Item Name="MDPtrMgr.lvclass" Type="LVClass" URL="../_MDPtrMgr/MDPtrMgr.lvclass"/>
 	</Item>
 	<Item Name="_Obsolete" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
@@ -26,6 +23,9 @@
 	</Item>
 	<Item Name="_Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="MDPtrMgr" Type="Folder">
+			<Item Name="MDPtrMgr.lvclass" Type="LVClass" URL="../_MDPtrMgr/MDPtrMgr.lvclass"/>
+		</Item>
 		<Item Name="LowLevelAPI" Type="Folder">
 			<Item Name="_malloc.vi" Type="VI" URL="../_Support/LowLevelAPI/_malloc.vi"/>
 			<Item Name="_mallocWithLength.vi" Type="VI" URL="../_Support/LowLevelAPI/_mallocWithLength.vi"/>
@@ -39,14 +39,16 @@
 			<Item Name="_NotValidStrPtr ErrorConst.vi" Type="VI" URL="../_Support/Error Handler/_NotValidStrPtr ErrorConst.vi"/>
 		</Item>
 		<Item Name="_MDPtr DecrementCount.vi" Type="VI" URL="../_Support/_MDPtr DecrementCount.vi"/>
-		<Item Name="_MDPtr Apply For Memory.vi" Type="VI" URL="../_Support/_MDPtr Apply For Memory.vi"/>
-		<Item Name="_MDPtr Apply For MDPtrQueue.vi" Type="VI" URL="../_Support/_MDPtr Apply For MDPtrQueue.vi"/>
-		<Item Name="_MDPtr Push Ptr Back to CacheQueue.vi" Type="VI" URL="../_Support/_MDPtr Push Ptr Back to CacheQueue.vi"/>
+		<Item Name="_MDPtr Validate DataFrame Type.vi" Type="VI" URL="../_Support/_MDPtr Validate DataFrame Type.vi"/>
+		<Item Name="_MDPtr GetMDPtrQueue.vi" Type="VI" URL="../_Support/_MDPtr GetMDPtrQueue.vi"/>
 		<Item Name="_MDPtr Pack Memory.vi" Type="VI" URL="../_Support/_MDPtr Pack Memory.vi"/>
 		<Item Name="_MDPtr Unpack Memory.vi" Type="VI" URL="../_Support/_MDPtr Unpack Memory.vi"/>
-		<Item Name="_MDPtr Validate DataFrame Type.vi" Type="VI" URL="../_Support/_MDPtr Validate DataFrame Type.vi"/>
 	</Item>
 	<Item Name="Advanced" Type="Folder">
+		<Item Name="Mgr" Type="Folder">
+			<Item Name="MDPtrMgr Info.vi" Type="VI" URL="../Advanced/Mgr/MDPtrMgr Info.vi"/>
+			<Item Name="MDPtrMgr Sync.vi" Type="VI" URL="../Advanced/Mgr/MDPtrMgr Sync.vi"/>
+		</Item>
 		<Item Name="FlattenStrPtr To MDPtr.vi" Type="VI" URL="../Advanced/FlattenStrPtr To MDPtr.vi"/>
 		<Item Name="MDPtr To FlattenStrPtr.vi" Type="VI" URL="../Advanced/MDPtr To FlattenStrPtr.vi"/>
 		<Item Name="MDPtr PointerTotalCount.vi" Type="VI" URL="../Advanced/MDPtr PointerTotalCount.vi"/>
@@ -58,6 +60,7 @@
 		<Item Name="MDPtr DataFrame-PlaceHolder.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr DataFrame-PlaceHolder.ctl"/>
 		<Item Name="MDPtr DataFrame-Memory.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr DataFrame-Memory.ctl"/>
 		<Item Name="MDPtr Queue.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr Queue.ctl"/>
+		<Item Name="MDPtr MallocMethod.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr MallocMethod.ctl"/>
 	</Item>
 	<Item Name="MDPtr Get Info.vi" Type="VI" URL="../MDPtr Get Info.vi"/>
 	<Item Name="MDPtr IsValidPtr.vi" Type="VI" URL="../MDPtr IsValidPtr.vi"/>
