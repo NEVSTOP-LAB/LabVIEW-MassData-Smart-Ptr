@@ -33,6 +33,7 @@
 			<Item Name="_memcpy.vi" Type="VI" URL="../_Support/_memcpy.vi"/>
 			<Item Name="_free.vi" Type="VI" URL="../_Support/_free.vi"/>
 		</Item>
+		<Item Name="_MDPtr DecrementCount.vi" Type="VI" URL="../_Support/_MDPtr DecrementCount.vi"/>
 		<Item Name="_MDPtr Build Error Cluster.vi" Type="VI" URL="../_Support/_MDPtr Build Error Cluster.vi"/>
 		<Item Name="_MDPtr NotValidStrPtr ErrorConst.vi" Type="VI" URL="../_Support/_MDPtr NotValidStrPtr ErrorConst.vi"/>
 		<Item Name="_MDPtr Apply For Memory.vi" Type="VI" URL="../_Support/_MDPtr Apply For Memory.vi"/>
@@ -41,11 +42,10 @@
 	</Item>
 	<Item Name="Advanced" Type="Folder">
 		<Item Name="FlattenStrPtr To MDPtr.vi" Type="VI" URL="../Advanced/FlattenStrPtr To MDPtr.vi"/>
-		<Item Name="MDPtr DecrementCount.vi" Type="VI" URL="../Advanced/MDPtr DecrementCount.vi"/>
+		<Item Name="MDPtr To FlattenStrPtr.vi" Type="VI" URL="../Advanced/MDPtr To FlattenStrPtr.vi"/>
 		<Item Name="MDPtr PointerTotalCount.vi" Type="VI" URL="../Advanced/MDPtr PointerTotalCount.vi"/>
 		<Item Name="MDPtr SetCopyCount.vi" Type="VI" URL="../Advanced/MDPtr SetCopyCount.vi"/>
 		<Item Name="MDPtr SetStrAttribute.vi" Type="VI" URL="../Advanced/MDPtr SetStrAttribute.vi"/>
-		<Item Name="MDPtr To FlattenStrPtr.vi" Type="VI" URL="../Advanced/MDPtr To FlattenStrPtr.vi"/>
 	</Item>
 	<Item Name="MDPtr TypeDef" Type="Folder">
 		<Item Name="MDPtr.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr.ctl"/>
