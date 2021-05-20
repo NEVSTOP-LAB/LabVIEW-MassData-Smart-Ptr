@@ -14,6 +14,8 @@
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="_MDPtrMgr " Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="_GlobalSettings.vi" Type="VI" URL="../_MDPtrMgr/_GlobalSettings.vi"/>
+		<Item Name="Def-GlobalSettings.ctl" Type="VI" URL="../_MDPtrMgr/Def-GlobalSettings.ctl"/>
 		<Item Name="_MDPtr TotalCounter.vi" Type="VI" URL="../_MDPtrMgr/_MDPtr TotalCounter.vi"/>
 		<Item Name="_MDPtr ReleaseCounter.vi" Type="VI" URL="../_MDPtrMgr/_MDPtr ReleaseCounter.vi"/>
 	</Item>
@@ -40,7 +42,6 @@
 		</Item>
 		<Item Name="_MDPtr DecrementCount.vi" Type="VI" URL="../_Support/_MDPtr DecrementCount.vi"/>
 		<Item Name="_MDPtr Validate DataFrame Type.vi" Type="VI" URL="../_Support/_MDPtr Validate DataFrame Type.vi"/>
-		<Item Name="_MDPtr GetMDPtrQueue.vi" Type="VI" URL="../_Support/_MDPtr GetMDPtrQueue.vi"/>
 		<Item Name="_MDPtr Pack Memory.vi" Type="VI" URL="../_Support/_MDPtr Pack Memory.vi"/>
 		<Item Name="_MDPtr Unpack Memory.vi" Type="VI" URL="../_Support/_MDPtr Unpack Memory.vi"/>
 	</Item>
