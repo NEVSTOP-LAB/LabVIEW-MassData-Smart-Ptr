@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-05-29 16:33:58" Modified_Date="2021-05-20 17:53:57" Creator="yao" Comments="" ID="224f074d6c981e66000655ea255280a4">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-05-29 16:33:58" Modified_Date="2021-05-20 18:18:18" Creator="yao" Comments="" ID="627c8ade3f0a468ec30aeb07f18b7f0d">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_MassData_SmartPtr</Package_File_Name>
-    <Library_Version>0.2.2.6</Library_Version>
+    <Library_Version>0.2.3.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>MassDataSmartPtr</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -388,7 +388,7 @@
         <Path>MassDataSmartPtr\Example</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AF0D450A821FCF07E46721C6075865D8</GUID>
+      <GUID>C6C45B8981058004FA83B9FB4CEB6550</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -451,7 +451,7 @@
         <Path>MassDataSmartPtr\_Example\MDPtr Validate Datatype Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>990BF039C5F8FFAEB7EC5A287815C824</GUID>
+      <GUID>671697A53F10B7972156F6B297DEC5BD</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

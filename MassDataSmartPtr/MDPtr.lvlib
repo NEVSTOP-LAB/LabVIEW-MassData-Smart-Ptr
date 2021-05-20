@@ -19,7 +19,7 @@
 		<Item Name="_MDPtr ReleaseCounter.vi" Type="VI" URL="../_MDPtrMgr/_MDPtr ReleaseCounter.vi"/>
 	</Item>
 	<Item Name="_Obsolete" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="MDPtr SetCopyCount.vi" Type="VI" URL="../_Obsolete/MDPtr SetCopyCount.vi"/>
 	</Item>
 	<Item Name="_Support" Type="Folder">
