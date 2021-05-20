@@ -15,7 +15,6 @@
 	<Item Name="_MDPtrMgr " Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="_GlobalSettings.vi" Type="VI" URL="../_MDPtrMgr/_GlobalSettings.vi"/>
-		<Item Name="Def-GlobalSettings.ctl" Type="VI" URL="../_MDPtrMgr/Def-GlobalSettings.ctl"/>
 		<Item Name="_MDPtr TotalCounter.vi" Type="VI" URL="../_MDPtrMgr/_MDPtr TotalCounter.vi"/>
 		<Item Name="_MDPtr ReleaseCounter.vi" Type="VI" URL="../_MDPtrMgr/_MDPtr ReleaseCounter.vi"/>
 	</Item>
@@ -46,25 +45,24 @@
 		<Item Name="_MDPtr Unpack Memory.vi" Type="VI" URL="../_Support/_MDPtr Unpack Memory.vi"/>
 	</Item>
 	<Item Name="Advanced" Type="Folder">
-		<Item Name="Mgr" Type="Folder">
-			<Item Name="MDPtrMgr Info.vi" Type="VI" URL="../Advanced/Mgr/MDPtrMgr Info.vi"/>
-			<Item Name="MDPtrMgr Sync.vi" Type="VI" URL="../Advanced/Mgr/MDPtrMgr Sync.vi"/>
-		</Item>
 		<Item Name="FlattenStrPtr To MDPtr.vi" Type="VI" URL="../Advanced/FlattenStrPtr To MDPtr.vi"/>
 		<Item Name="MDPtr To FlattenStrPtr.vi" Type="VI" URL="../Advanced/MDPtr To FlattenStrPtr.vi"/>
 		<Item Name="MDPtr PointerTotalCount.vi" Type="VI" URL="../Advanced/MDPtr PointerTotalCount.vi"/>
-		<Item Name="MDPtr SetStrAttribute.vi" Type="VI" URL="../Advanced/MDPtr SetStrAttribute.vi"/>
+		<Item Name="MDPtrMgr Info.vi" Type="VI" URL="../Advanced/MDPtrMgr Info.vi"/>
+		<Item Name="MDPtrMgr Sync.vi" Type="VI" URL="../Advanced/MDPtrMgr Sync.vi"/>
 	</Item>
 	<Item Name="MDPtr TypeDef" Type="Folder">
 		<Item Name="MDPtr.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr.ctl"/>
+		<Item Name="MDPtr MallocMethod.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr MallocMethod.ctl"/>
+		<Item Name="MDPtr GlobalSettings.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr GlobalSettings.ctl"/>
 		<Item Name="MDPtr DataFrame-Common.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr DataFrame-Common.ctl"/>
 		<Item Name="MDPtr DataFrame-PlaceHolder.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr DataFrame-PlaceHolder.ctl"/>
 		<Item Name="MDPtr DataFrame-Memory.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr DataFrame-Memory.ctl"/>
 		<Item Name="MDPtr Queue.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr Queue.ctl"/>
-		<Item Name="MDPtr MallocMethod.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr MallocMethod.ctl"/>
 	</Item>
-	<Item Name="MDPtr Get Info.vi" Type="VI" URL="../MDPtr Get Info.vi"/>
-	<Item Name="MDPtr IsValidPtr.vi" Type="VI" URL="../MDPtr IsValidPtr.vi"/>
 	<Item Name="MDPtr Pack.vim" Type="VI" URL="../MDPtr Pack.vim"/>
 	<Item Name="MDPtr Unpack.vim" Type="VI" URL="../MDPtr Unpack.vim"/>
+	<Item Name="MDPtr IsValidPtr.vi" Type="VI" URL="../MDPtr IsValidPtr.vi"/>
+	<Item Name="MDPtr Information.vi" Type="VI" URL="../MDPtr Information.vi"/>
+	<Item Name="MDPtr SetStrAttribute.vi" Type="VI" URL="../MDPtr SetStrAttribute.vi"/>
 </Library>
