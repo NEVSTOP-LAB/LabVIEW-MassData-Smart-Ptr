@@ -14,13 +14,13 @@
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="_MDPtrMgr " Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="_GlobalSettings.vi" Type="VI" URL="../_MDPtrMgr/_GlobalSettings.vi"/>
-		<Item Name="_MDPtr TotalCounter.vi" Type="VI" URL="../_MDPtrMgr/_MDPtr TotalCounter.vi"/>
-		<Item Name="_MDPtr ReleaseCounter.vi" Type="VI" URL="../_MDPtrMgr/_MDPtr ReleaseCounter.vi"/>
 	</Item>
 	<Item Name="_Obsolete" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="MDPtr SetCopyCount.vi" Type="VI" URL="../_Obsolete/MDPtr SetCopyCount.vi"/>
+		<Item Name="MDPtr ReleaseCounter.vi" Type="VI" URL="../_Obsolete/MDPtr ReleaseCounter.vi"/>
+		<Item Name="MDPtr TotalCounter.vi" Type="VI" URL="../_Obsolete/MDPtr TotalCounter.vi"/>
+		<Item Name="MDPtr GlobalSettings.vi" Type="VI" URL="../_Obsolete/MDPtr GlobalSettings.vi"/>
 	</Item>
 	<Item Name="_Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -50,6 +50,7 @@
 		<Item Name="MDPtr PointerTotalCount.vi" Type="VI" URL="../Advanced/MDPtr PointerTotalCount.vi"/>
 		<Item Name="MDPtrMgr Info.vi" Type="VI" URL="../Advanced/MDPtrMgr Info.vi"/>
 		<Item Name="MDPtrMgr Sync.vi" Type="VI" URL="../Advanced/MDPtrMgr Sync.vi"/>
+		<Item Name="MDPtrMgr Global Settings.vi" Type="VI" URL="../Advanced/MDPtrMgr Global Settings.vi"/>
 	</Item>
 	<Item Name="MDPtr TypeDef" Type="Folder">
 		<Item Name="MDPtr.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr.ctl"/>
