@@ -28,6 +28,7 @@
 				<Item Name="MDPtr ValidateFlattenToString.vi" Type="VI" URL="../MassDataSmartPtr/_Example/MDPtr ValidateFlattenToString.vi"/>
 				<Item Name="MDPtr ValidateFlattenToString2.vi" Type="VI" URL="../MassDataSmartPtr/_Example/MDPtr ValidateFlattenToString2.vi"/>
 				<Item Name="MDPtr ValidateFlattenToString3.vi" Type="VI" URL="../MassDataSmartPtr/_Example/MDPtr ValidateFlattenToString3.vi"/>
+				<Item Name="MDPtr ValidateFlattenToString4.vi" Type="VI" URL="../MassDataSmartPtr/_Example/MDPtr ValidateFlattenToString4.vi"/>
 			</Item>
 			<Item Name="MDPtr.lvlib" Type="Library" URL="../MassDataSmartPtr/MDPtr.lvlib"/>
 		</Item>

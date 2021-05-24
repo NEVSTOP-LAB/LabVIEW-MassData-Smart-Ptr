@@ -12,9 +12,6 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="_MDPtrMgr " Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-	</Item>
 	<Item Name="_Obsolete" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="MDPtr SetCopyCount.vi" Type="VI" URL="../_Obsolete/MDPtr SetCopyCount.vi"/>
@@ -50,7 +47,7 @@
 		<Item Name="MDPtr PointerTotalCount.vi" Type="VI" URL="../Advanced/MDPtr PointerTotalCount.vi"/>
 		<Item Name="MDPtrMgr Info.vi" Type="VI" URL="../Advanced/MDPtrMgr Info.vi"/>
 		<Item Name="MDPtrMgr Sync.vi" Type="VI" URL="../Advanced/MDPtrMgr Sync.vi"/>
-		<Item Name="MDPtrMgr Global Settings.vi" Type="VI" URL="../Advanced/MDPtrMgr Global Settings.vi"/>
+		<Item Name="MDPtrMgr GlobalSettings.vi" Type="VI" URL="../Advanced/MDPtrMgr GlobalSettings.vi"/>
 	</Item>
 	<Item Name="MDPtr TypeDef" Type="Folder">
 		<Item Name="MDPtr.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr.ctl"/>

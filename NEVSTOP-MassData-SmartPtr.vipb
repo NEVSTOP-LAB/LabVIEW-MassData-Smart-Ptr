@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-05-29 16:33:58" Modified_Date="2021-05-21 22:15:28" Creator="yao" Comments="" ID="1b273fbe1b378a7f5181e78f6ad66824">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-05-29 16:33:58" Modified_Date="2021-05-24 23:41:34" Creator="yao" Comments="" ID="5b9780ff83eab9fd81bd154eed292af6">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_MassData_SmartPtr</Package_File_Name>
-    <Library_Version>0.2.4.8</Library_Version>
+    <Library_Version>0.2.5.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>MassDataSmartPtr</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -307,48 +307,6 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>MDPtr PointerTotalCount.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>MassDataSmartPtr\Advanced\MDPtr PointerTotalCount.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>MDPtrMgr Sync.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>MassDataSmartPtr\Advanced\MDPtrMgr Sync.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>MDPtrMgr Info.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>MassDataSmartPtr\Advanced\MDPtrMgr Info.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>FlattenStrPtr To MDPtr.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -388,7 +346,49 @@
         <Path>MassDataSmartPtr\Example</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F3C7C1774FC0CF427BE8D06E72A53E3B</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>MDPtrMgr Info.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>MassDataSmartPtr\Advanced\MDPtrMgr Info.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>MDPtrMgr GlobalSettings.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>MassDataSmartPtr\Advanced\MDPtrMgr GlobalSettings.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>MDPtrMgr Sync.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>MassDataSmartPtr\Advanced\MDPtrMgr Sync.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>F1502551B95D59C5B53BCDD8386FABD1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -451,7 +451,7 @@
         <Path>MassDataSmartPtr\_Example\MDPtr Validate Datatype Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D682BD31E2DF0853F2798D4DF21B469A</GUID>
+      <GUID>AB46015B28ABD5A2B50ECCB16E6DDB43</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
