@@ -45,9 +45,10 @@
 		<Item Name="FlattenStrPtr To MDPtr.vi" Type="VI" URL="../Advanced/FlattenStrPtr To MDPtr.vi"/>
 		<Item Name="MDPtr To FlattenStrPtr.vi" Type="VI" URL="../Advanced/MDPtr To FlattenStrPtr.vi"/>
 		<Item Name="MDPtr PointerTotalCount.vi" Type="VI" URL="../Advanced/MDPtr PointerTotalCount.vi"/>
+		<Item Name="MDPtrMgr GlobalSettings.vi" Type="VI" URL="../Advanced/MDPtrMgr GlobalSettings.vi"/>
 		<Item Name="MDPtrMgr Info.vi" Type="VI" URL="../Advanced/MDPtrMgr Info.vi"/>
 		<Item Name="MDPtrMgr Sync.vi" Type="VI" URL="../Advanced/MDPtrMgr Sync.vi"/>
-		<Item Name="MDPtrMgr GlobalSettings.vi" Type="VI" URL="../Advanced/MDPtrMgr GlobalSettings.vi"/>
+		<Item Name="MDPtrMgr FreeCache.vi" Type="VI" URL="../Advanced/MDPtrMgr FreeCache.vi"/>
 	</Item>
 	<Item Name="MDPtr TypeDef" Type="Folder">
 		<Item Name="MDPtr.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr.ctl"/>
@@ -56,7 +57,6 @@
 		<Item Name="MDPtr DataFrame-Common.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr DataFrame-Common.ctl"/>
 		<Item Name="MDPtr DataFrame-PlaceHolder.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr DataFrame-PlaceHolder.ctl"/>
 		<Item Name="MDPtr DataFrame-Memory.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr DataFrame-Memory.ctl"/>
-		<Item Name="MDPtr Queue.ctl" Type="VI" URL="../MDPtr TypeDef/MDPtr Queue.ctl"/>
 	</Item>
 	<Item Name="MDPtr Pack.vim" Type="VI" URL="../MDPtr Pack.vim"/>
 	<Item Name="MDPtr Unpack.vim" Type="VI" URL="../MDPtr Unpack.vim"/>
