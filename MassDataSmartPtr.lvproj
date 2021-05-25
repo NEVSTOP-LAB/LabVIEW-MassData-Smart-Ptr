@@ -21,14 +21,13 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="MassDataSmartPtr" Type="Folder">
+			<Item Name="__TEST" Type="Folder" URL="../MassDataSmartPtr/__TEST">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
 			<Item Name="_Example" Type="Folder">
 				<Item Name="MDPtr DAQ Example.vi" Type="VI" URL="../MassDataSmartPtr/_Example/MDPtr DAQ Example.vi"/>
 				<Item Name="MDPtr Process Example.vi" Type="VI" URL="../MassDataSmartPtr/_Example/MDPtr Process Example.vi"/>
 				<Item Name="MDPtr Validate Datatype Example.vi" Type="VI" URL="../MassDataSmartPtr/_Example/MDPtr Validate Datatype Example.vi"/>
-				<Item Name="MDPtr ValidateFlattenToString.vi" Type="VI" URL="../MassDataSmartPtr/_Example/MDPtr ValidateFlattenToString.vi"/>
-				<Item Name="MDPtr ValidateFlattenToString2.vi" Type="VI" URL="../MassDataSmartPtr/_Example/MDPtr ValidateFlattenToString2.vi"/>
-				<Item Name="MDPtr ValidateFlattenToString3.vi" Type="VI" URL="../MassDataSmartPtr/_Example/MDPtr ValidateFlattenToString3.vi"/>
-				<Item Name="MDPtr ValidateFlattenToString4.vi" Type="VI" URL="../MassDataSmartPtr/_Example/MDPtr ValidateFlattenToString4.vi"/>
 			</Item>
 			<Item Name="MDPtr.lvlib" Type="Library" URL="../MassDataSmartPtr/MDPtr.lvlib"/>
 		</Item>
@@ -37,7 +36,6 @@
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Diff Timer_nevstop.vi" Type="VI" URL="/&lt;userlib&gt;/NEVSTOP-Programming-Palette/Time/Diff Timer_nevstop.vi"/>
 				<Item Name="Tick Count (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Tick Count (ms)__ogtk.vi"/>
-				<Item Name="Timeout Timer_nevstop.vi" Type="VI" URL="/&lt;userlib&gt;/NEVSTOP-Programming-Palette/Time/Timeout Timer_nevstop.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AsciiToInt.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/AsciiToInt.vi"/>
@@ -174,10 +172,10 @@
 			<Item Name="MDPtr DAQ Example.vi" Type="VI" URL="../MassDataSmartPtr/_Example/MDPtr DAQ Example.vi"/>
 			<Item Name="MDPtr Process Example.vi" Type="VI" URL="../MassDataSmartPtr/_Example/MDPtr Process Example.vi"/>
 			<Item Name="MDPtr Validate Datatype Example.vi" Type="VI" URL="../MassDataSmartPtr/_Example/MDPtr Validate Datatype Example.vi"/>
-			<Item Name="MDPtr ValidateFlattenToString.vi" Type="VI" URL="../MassDataSmartPtr/_Example/MDPtr ValidateFlattenToString.vi"/>
-			<Item Name="MDPtr ValidateFlattenToString2.vi" Type="VI" URL="../MassDataSmartPtr/_Example/MDPtr ValidateFlattenToString2.vi"/>
-			<Item Name="MDPtr ValidateFlattenToString3.vi" Type="VI" URL="../MassDataSmartPtr/_Example/MDPtr ValidateFlattenToString3.vi"/>
-			<Item Name="MDPtr ValidateFlattenToString4.vi" Type="VI" URL="../MassDataSmartPtr/_Example/MDPtr ValidateFlattenToString4.vi"/>
+			<Item Name="MDPtr ValidateFlattenToString.vi" Type="VI" URL="../MassDataSmartPtr/__TEST/MDPtr ValidateFlattenToString.vi"/>
+			<Item Name="MDPtr ValidateFlattenToString2.vi" Type="VI" URL="../MassDataSmartPtr/__TEST/MDPtr ValidateFlattenToString2.vi"/>
+			<Item Name="MDPtr ValidateFlattenToString3.vi" Type="VI" URL="../MassDataSmartPtr/__TEST/MDPtr ValidateFlattenToString3.vi"/>
+			<Item Name="MDPtr ValidateFlattenToString4.vi" Type="VI" URL="../MassDataSmartPtr/__TEST/MDPtr ValidateFlattenToString4.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">

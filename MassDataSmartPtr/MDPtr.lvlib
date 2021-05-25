@@ -40,6 +40,7 @@
 		<Item Name="_MDPtr Validate DataFrame Type.vi" Type="VI" URL="../_Support/_MDPtr Validate DataFrame Type.vi"/>
 		<Item Name="_MDPtr Pack Memory.vi" Type="VI" URL="../_Support/_MDPtr Pack Memory.vi"/>
 		<Item Name="_MDPtr Unpack Memory.vi" Type="VI" URL="../_Support/_MDPtr Unpack Memory.vi"/>
+		<Item Name="_cp_to_rm_deps_Timeout Timer.vi" Type="VI" URL="../_Support/_cp_to_rm_deps_Timeout Timer.vi"/>
 	</Item>
 	<Item Name="Advanced" Type="Folder">
 		<Item Name="FlattenStrPtr To MDPtr.vi" Type="VI" URL="../Advanced/FlattenStrPtr To MDPtr.vi"/>

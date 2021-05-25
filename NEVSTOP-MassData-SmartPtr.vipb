@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-05-29 16:33:58" Modified_Date="2021-05-25 22:10:40" Creator="yao" Comments="" ID="df00b9fb142d39b87dfab067e5017fd4">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-05-29 16:33:58" Modified_Date="2021-05-25 22:30:54" Creator="yao" Comments="" ID="477ba30dd467ded983cc888ca0f72407">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_MassData_SmartPtr</Package_File_Name>
-    <Library_Version>0.2.6.10</Library_Version>
+    <Library_Version>0.2.7.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>MassDataSmartPtr</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -135,6 +135,9 @@
         <Namespace_Type>Suffix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
+      <Exclusions>
+        <Path>__TEST</Path>
+      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>LICENSE</License_Agreement_Filepath>
     <Licensing_and_Activation>
@@ -402,7 +405,7 @@
         <Path>MassDataSmartPtr\Advanced\MDPtrMgr FreeCache.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EA9E3D28A3A846779C1ADAF31E4E47E3</GUID>
+      <GUID>27C55DEEFFB3CA3D871DC944A5F5B85F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -465,7 +468,7 @@
         <Path>MassDataSmartPtr\_Example\MDPtr Validate Datatype Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>963C010372BD5307D64C32F533028A93</GUID>
+      <GUID>106D34432BD8B4A05A96ABF4E0742BE9</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
