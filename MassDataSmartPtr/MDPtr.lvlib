@@ -15,8 +15,6 @@
 	<Item Name="_Obsolete" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="MDPtr SetCopyCount.vi" Type="VI" URL="../_Obsolete/MDPtr SetCopyCount.vi"/>
-		<Item Name="MDPtr ReleaseCounter.vi" Type="VI" URL="../_Obsolete/MDPtr ReleaseCounter.vi"/>
-		<Item Name="MDPtr TotalCounter.vi" Type="VI" URL="../_Obsolete/MDPtr TotalCounter.vi"/>
 		<Item Name="MDPtr GlobalSettings.vi" Type="VI" URL="../_Obsolete/MDPtr GlobalSettings.vi"/>
 	</Item>
 	<Item Name="_Support" Type="Folder">
@@ -41,6 +39,7 @@
 		<Item Name="_MDPtr Pack Memory.vi" Type="VI" URL="../_Support/_MDPtr Pack Memory.vi"/>
 		<Item Name="_MDPtr Unpack Memory.vi" Type="VI" URL="../_Support/_MDPtr Unpack Memory.vi"/>
 		<Item Name="_cp_to_rm_deps_Timeout Timer.vi" Type="VI" URL="../_Support/_cp_to_rm_deps_Timeout Timer.vi"/>
+		<Item Name="_MDPtr To DVR.vi" Type="VI" URL="../_Support/_MDPtr To DVR.vi"/>
 	</Item>
 	<Item Name="Advanced" Type="Folder">
 		<Item Name="FlattenStrPtr To MDPtr.vi" Type="VI" URL="../Advanced/FlattenStrPtr To MDPtr.vi"/>
