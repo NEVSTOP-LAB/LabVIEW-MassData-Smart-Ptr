@@ -31,6 +31,7 @@
 			</Item>
 			<Item Name="MDPtr.lvlib" Type="Library" URL="../MassDataSmartPtr/MDPtr.lvlib"/>
 		</Item>
+		<Item Name="MassDataSmartPtr.cfg" Type="Document" URL="../MassDataSmartPtr.cfg"/>
 		<Item Name="NEVSTOP-MassData-SmartPtr.vipb" Type="Document" URL="../NEVSTOP-MassData-SmartPtr.vipb"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
