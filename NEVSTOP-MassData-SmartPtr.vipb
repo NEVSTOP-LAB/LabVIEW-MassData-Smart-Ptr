@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-05-29 16:33:58" Modified_Date="2022-12-15 16:04:26" Creator="yao" Comments="" ID="4ba391000718691dcec0bc7887042002">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-05-29 16:33:58" Modified_Date="2022-12-15 16:19:17" Creator="yao" Comments="" ID="1b79b4250016b8b468cf8ae2c91b3e5f">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_MassData_SmartPtr</Package_File_Name>
     <Library_Version>0.3.1.3</Library_Version>
@@ -175,7 +175,7 @@
         <Palette_Disk_Base_Path>&lt;vi.lib&gt;\addons</Palette_Disk_Base_Path>
         <Syncing_MNU_file/>
       </Functions_Palette_Information>
-      <Apply_Short_Names_to_VI_Titles>false</Apply_Short_Names_to_VI_Titles>
+      <Apply_Short_Names_to_VI_Titles>true</Apply_Short_Names_to_VI_Titles>
       <Apply_Short_Names_to_VI_Titles_2>true</Apply_Short_Names_to_VI_Titles_2>
       <Library_or_Class_Nmae>MDPtr.lvlib</Library_or_Class_Nmae>
     </Palette_Sets>
@@ -409,7 +409,7 @@
         <Path>MassDataSmartPtr\Advanced\MDPtrMgr FreeCache.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5894B46C94DFC77917CC10051F816315</GUID>
+      <GUID>00DA0193AFAEBCF90CE5A5C72BADCE29</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -472,7 +472,7 @@
         <Path>MassDataSmartPtr\_Example\MDPtr Validate Datatype Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A72AF061B90622AA61F033A356504210</GUID>
+      <GUID>5BAF39F38A67508DC63C301F64F9B404</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
