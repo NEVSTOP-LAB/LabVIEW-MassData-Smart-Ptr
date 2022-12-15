@@ -1,6 +1,7 @@
 # LabVIEW-MassData-Smart-Ptr
 
 [![Check_Broken_VIs](https://github.com/NEVSTOP-LAB/LabVIEW-MassData-Smart-Ptr/actions/workflows/Check_Broken_VIs.yml/badge.svg)](https://github.com/NEVSTOP-LAB/LabVIEW-MassData-Smart-Ptr/actions/workflows/Check_Broken_VIs.yml)
+[![Build_VIPM_Library](https://github.com/NEVSTOP-LAB/LabVIEW-MassData-Smart-Ptr/actions/workflows/Build_VIPM_Library.yml/badge.svg)](https://github.com/NEVSTOP-LAB/LabVIEW-MassData-Smart-Ptr/actions/workflows/Build_VIPM_Library.yml)
 
 ![演示](https://images.gitee.com/uploads/images/2018/0822/160314_566fec33_136753.png "屏幕截图.png")
 
