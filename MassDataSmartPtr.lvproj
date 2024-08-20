@@ -175,10 +175,6 @@
 			<Item Name="MDPtr ValidateFlattenToString4.vi" Type="VI" URL="../MassDataSmartPtr/__TEST/MDPtr ValidateFlattenToString4.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="user.lib" Type="Folder">
-				<Item Name="Diff Timer_nevstop.vi" Type="VI" URL="/&lt;userlib&gt;/NEVSTOP-Programming-Palette/Time/Diff Timer_nevstop.vi"/>
-				<Item Name="Tick Count (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Tick Count (ms)__ogtk.vi"/>
-			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AsciiToInt.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/AsciiToInt.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -256,6 +252,8 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="_Diff Timer.vi" Type="VI" URL="../MassDataSmartPtr/__TEST/_Diff Timer.vi"/>
+			<Item Name="_Tick Count (ms).vi" Type="VI" URL="../MassDataSmartPtr/__TEST/_Tick Count (ms).vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="MDPtr.lvlib" Type="Library" URL="../MassDataSmartPtr/MDPtr.lvlib"/>
 		</Item>
