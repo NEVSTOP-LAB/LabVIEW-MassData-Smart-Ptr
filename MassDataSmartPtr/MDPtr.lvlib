@@ -18,11 +18,12 @@
 		<Item Name="MDPtr GlobalSettings.vi" Type="VI" URL="../_Obsolete/MDPtr GlobalSettings.vi"/>
 	</Item>
 	<Item Name="_Support" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="MDPtrMgr" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="MDPtrMgr.lvclass" Type="LVClass" URL="../_MDPtrMgr/MDPtrMgr.lvclass"/>
 		</Item>
 		<Item Name="LowLevelAPI" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="_malloc.vi" Type="VI" URL="../_Support/LowLevelAPI/_malloc.vi"/>
 			<Item Name="_mallocWithLength.vi" Type="VI" URL="../_Support/LowLevelAPI/_mallocWithLength.vi"/>
 			<Item Name="_information.vi" Type="VI" URL="../_Support/LowLevelAPI/_information.vi"/>
@@ -30,16 +31,27 @@
 			<Item Name="_free.vi" Type="VI" URL="../_Support/LowLevelAPI/_free.vi"/>
 		</Item>
 		<Item Name="Error Handler" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="_Build Error Cluster.vi" Type="VI" URL="../_Support/Error Handler/_Build Error Cluster.vi"/>
 			<Item Name="_MemoryIsLonger ErrorConst.vi" Type="VI" URL="../_Support/Error Handler/_MemoryIsLonger ErrorConst.vi"/>
 			<Item Name="_NotValidStrPtr ErrorConst.vi" Type="VI" URL="../_Support/Error Handler/_NotValidStrPtr ErrorConst.vi"/>
 		</Item>
-		<Item Name="_MDPtr DecrementCount.vi" Type="VI" URL="../_Support/_MDPtr DecrementCount.vi"/>
-		<Item Name="_MDPtr Validate DataFrame Type.vi" Type="VI" URL="../_Support/_MDPtr Validate DataFrame Type.vi"/>
-		<Item Name="_MDPtr Pack Memory.vi" Type="VI" URL="../_Support/_MDPtr Pack Memory.vi"/>
+		<Item Name="_MDPtr DecrementCount.vi" Type="VI" URL="../_Support/_MDPtr DecrementCount.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="_MDPtr Validate DataFrame Type.vi" Type="VI" URL="../_Support/_MDPtr Validate DataFrame Type.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="_MDPtr Pack Memory.vi" Type="VI" URL="../_Support/_MDPtr Pack Memory.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="_MDPtr Unpack Memory.vi" Type="VI" URL="../_Support/_MDPtr Unpack Memory.vi"/>
-		<Item Name="_cp_to_rm_deps_Timeout Timer.vi" Type="VI" URL="../_Support/_cp_to_rm_deps_Timeout Timer.vi"/>
-		<Item Name="_MDPtr To DVR.vi" Type="VI" URL="../_Support/_MDPtr To DVR.vi"/>
+		<Item Name="_cp_to_rm_deps_Timeout Timer.vi" Type="VI" URL="../_Support/_cp_to_rm_deps_Timeout Timer.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="_MDPtr To DVR.vi" Type="VI" URL="../_Support/_MDPtr To DVR.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 	</Item>
 	<Item Name="Advanced" Type="Folder">
 		<Item Name="FlattenStrPtr To MDPtr.vi" Type="VI" URL="../Advanced/FlattenStrPtr To MDPtr.vi"/>
